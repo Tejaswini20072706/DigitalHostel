@@ -2,164 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Smart Hostel Management System</title>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="#f3f4ff">
+<body>
 
-    <!-- HEADER -->
-    <table width="100%" cellpadding="15" cellspacing="0" bgcolor="#4f46e5">
-        <tr>
-            <td align="center">
-                <font face="Arial" color="#ffffff" size="6">
-                    SMART HOSTEL MANAGEMENT SYSTEM
-                </font>
-                <br>
-                <font face="Arial" color="#e5e7eb" size="3">
-                    Digital Hostel | Easy. Safe. Smart.
-                </font>
-            </td>
-        </tr>
-    </table>
+<div class="container">
+    <h2>Login Form</h2>
 
-    <!-- NAVBAR -->
-    <table width="100%" cellpadding="10" cellspacing="0" bgcolor="#111827">
-        <tr align="center">
-            <td><font face="Arial" color="#f9fafb" size="3">Home</font></td>
-            <td><font face="Arial" color="#f9fafb" size="3">Rooms</font></td>
-            <td><font face="Arial" color="#f9fafb" size="3">Students</font></td>
-            <td><font face="Arial" color="#f9fafb" size="3">Bookings</font></td>
-            <td><font face="Arial" color="#f9fafb" size="3">Contact</font></td>
-        </tr>
-    </table>
+    <div class="input-box">
+        <label>Username</label>
+        <input type="text" placeholder="Enter Username">
+    </div>
 
-    <!-- HERO SECTION -->
-    <table width="100%" cellpadding="20" cellspacing="0">
-        <tr>
-            <!-- LEFT TEXT -->
-            <td width="50%" valign="top">
-                <font face="Arial" color="#111827" size="5">
-                    Welcome to Digital Smart Hostel
-                </font>
-                <br><br>
-                <font face="Arial" color="#4b5563" size="3">
-                    Our Smart Hostel Management System helps warden and students to manage
-                    <b>room allocation</b>, <b>attendance</b>, <b>fees</b> and <b>complaints</b> in one place.
-                </font>
-                <br><br>
-                <font face="Arial" color="#16a34a" size="4">
-                    • Online Room Booking<br>
-                    • Digital ID & Access<br>
-                    • Smart Attendance<br>
-                    • 24/7 Support
-                </font>
-                <br><br>
-                <table cellpadding="10" cellspacing="0">
-                    <tr>
-                        <td bgcolor="#22c55e">
-                            <font face="Arial" color="#ffffff" size="3">
-                                Get Started
-                            </font>
-                        </td>
-                        <td bgcolor="#e5e7eb">
-                            <font face="Arial" color="#111827" size="3">
-                                View Demo
-                            </font>
-                        </td>
-                    </tr>
-                </table>
-            </td>
+    <div class="input-box">
+        <label>Password</label>
+        <div class="password-wrapper">
+            <input type="password" placeholder="Enter Password">
+            <span class="eye">👁</span>
+            <div class="beam"></div>   <!-- MUST be inside here -->
+        </div>
+    </div>
 
-            <!-- RIGHT IMAGE -->
-            <td width="50%" align="center" valign="top">
-                <img src="hostel_building.jpg" alt="Hostel Building" width="320" height="220">
-                <br><br>
-                <img src="room_interior.jpg" alt="Hostel Room" width="150" height="110">
-                &nbsp;
-                <img src="students_common_area.jpg" alt="Students Area" width="150" height="110">
-            </td>
-        </tr>
-    </table>
-
-    <!-- FEATURES SECTION -->
-    <table width="100%" cellpadding="15" cellspacing="0">
-        <tr>
-            <td colspan="3" align="center">
-                <font face="Arial" color="#111827" size="5">
-                    Key Features
-                </font>
-            </td>
-        </tr>
-        <tr align="center">
-            <td bgcolor="#fee2e2">
-                <font face="Arial" color="#b91c1c" size="4">
-                    Smart Booking
-                </font><br><br>
-                <font face="Arial" color="#7f1d1d" size="3">
-                    Students can book and change rooms online without paperwork.
-                </font>
-            </td>
-            <td bgcolor="#dcfce7">
-                <font face="Arial" color="#166534" size="4">
-                    Digital Records
-                </font><br><br>
-                <font face="Arial" color="#14532d" size="3">
-                    Store student details, fee status and attendance in one system.
-                </font>
-            </td>
-            <td bgcolor="#dbeafe">
-                <font face="Arial" color="#1d4ed8" size="4">
-                    Safe & Secure
-                </font><br><br>
-                <font face="Arial" color="#1e3a8a" size="3">
-                    Track visitors, complaints and emergency alerts easily.
-                </font>
-            </td>
-        </tr>
-    </table>
-
-    <!-- IMAGE GALLERY -->
-    <table width="100%" cellpadding="15" cellspacing="0">
-        <tr>
-            <td colspan="3" align="center">
-                <font face="Arial" color="#111827" size="5">
-                    Hostel Gallery
-                </font>
-            </td>
-        </tr>
-        <tr align="center">
-            <td>
-                <img src="mess_hall.jpg" alt="Mess Hall" width="250" height="150"><br>
-                <font face="Arial" color="#4b5563" size="3">Mess & Dining Area</font>
-            </td>
-            <td>
-                <img src="study_room.jpg" alt="Study Room" width="250" height="150"><br>
-                <font face="Arial" color="#4b5563" size="3">Study & Reading Room</font>
-            </td>
-            <td>
-                <img src="security_cctv.jpg" alt="Security CCTV" width="250" height="150"><br>
-                <font face="Arial" color="#4b5563" size="3">24/7 Security & CCTV</font>
-            </td>
-        </tr>
-    </table>
-
-    <!-- CONTACT / FOOTER -->
-    <table width="100%" cellpadding="15" cellspacing="0" bgcolor="#111827">
-        <tr>
-            <td align="center">
-                <font face="Arial" color="#f9fafb" size="4">
-                    Contact for Project
-                </font><br><br>
-                <font face="Arial" color="#d1d5db" size="3">
-                    Smart Hostel Management System (Project Demo)<br>
-                    Email: info@smarthostel.com | Phone: +91-98765-43210
-                </font>
-                <br><br>
-                <font face="Arial" color="#6b7280" size="2">
-                    © 2025 Digital Smart Hostel. All rights reserved.
-                </font>
-            </td>
-        </tr>
-    </table>
+    <button class="btn">Sign In</button>
+</div>
 
 </body>
 </html>

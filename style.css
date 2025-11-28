@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0a0a18;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #0005;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.input-box {
+    margin-bottom: 22px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid #888;
+    outline: none;
+}
+
+input:focus {
+    border-color: #00ddff;
+}
+
+.eye {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.beam {
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 4px;
+    width: 0%;
+    background: cyan;
+    border-radius: 3px;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 0 8px cyan;
+}
+
+/* Animation triggered here */
+.password-wrapper input:focus ~ .beam {
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #222;
+}
